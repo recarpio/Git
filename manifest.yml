@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: p03rcarpio
+  host: p03rcarpio
+  disk_quota: 1024M
+  services:
+  - p03rcarpio-cloudantNoSQLDB
